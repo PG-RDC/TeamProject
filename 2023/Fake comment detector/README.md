@@ -23,4 +23,4 @@ Discriminator.ipynb의 세번 째 셀
 discriminator = torch.load('/your_dir/discriminator.pt')
 ```
 ## 결론
-Generator의 경우 gpt2를 사용했는데 더 좋은 성능의 Generator를 사용한다면 Discriminator 또한 성능이 올라 갈 것이라고 생각한다.
+Generator의 경우 gpt2를 사용했는데 더 좋은 성능의 Generator를 사용한다면 Discriminator 또한 성능이 올라 갈 것이라고 생각합니다.
