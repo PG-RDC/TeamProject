@@ -8,7 +8,12 @@
 
 ###### 사이버 보안 강화학습! 해킹하는 인공지능을 만들어 보자!
 
-#### Main idea: Environment는 graph로 구현하고, action은 local 공격 1개, remote 공격 2개, credit 획득 1개로 총 4개로 구성
+#### Main idea: 
+- Environment는 graph로 구현
+- action
+  - local 공격 1개
+  - remote 공격 2개
+  - credit 획득 1개
 
 ## 결론
 action, reward 설정이 잘 된다면 강화학습은 잘 동작한다.
@@ -18,3 +23,5 @@ DQN부분의 PATH 부분
 ```python
 PATH = 'your path'
 ```
+
+#### action 함수를 추가하고, action의 수를 늘려주시면 변경해서 강화학습이 가능합니다.
