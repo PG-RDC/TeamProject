@@ -7,6 +7,9 @@
 #### Main idea: GAN을 사용해서 가짜 댓글을 판별하는 판별기를 만들자!
 ![image](https://github.com/PG-RDC/TeamProject/assets/130644995/960762a3-7d18-4b8e-9a16-c9901aa0a8d1)
 
+## 결론
+Generator의 경우 gpt2를 사용했는데 더 좋은 성능의 Generator를 사용한다면 Discriminator 또한 성능이 올라 갈 것이라고 생각합니다.
+
 #### 다음 코드에 사용하실 경로를 넣어주면 학습이 가능합니다.
 train 부분의 save 부분
 ```python
@@ -22,5 +25,3 @@ Discriminator.ipynb의 세번 째 셀
 ```python
 discriminator = torch.load('/your_dir/discriminator.pt')
 ```
-## 결론
-Generator의 경우 gpt2를 사용했는데 더 좋은 성능의 Generator를 사용한다면 Discriminator 또한 성능이 올라 갈 것이라고 생각합니다.
